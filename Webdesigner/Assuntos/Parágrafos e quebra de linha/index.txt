@@ -1,7 +1,0 @@
-
-Linha 12 - adicionando uma linha horizontal na página. 
-
-Linha 17 até 19 - nesse parágrafo (<p) tem uma tag (<br>) que serve justamente para quebrar linhas.
-
-
-Bom, nos dois parágrafos, quando falei das tags, nãou utilizei o "simbolo" da marcação, ou seja, <>, por conta que existe uma forma específica para isso, e ainda não foi o meu objetivo. 
