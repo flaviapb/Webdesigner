@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Google-Noto-Emoji-Animals-Nature-22218-fox-face.ico" type="image/x-icon">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Hospedando vídeos localmente</h1>
+    <p>Esse vídeo está ofertado no meu própio servidor:</p>
+
+    <!--O comentario abaixo é só do tipo MP4-->
+    <!--<video src="videos/Production Id 5055604-1.m4v" width = "500" controls></video>--> 
+    
+    <!--O mais certo é colocar todos os formatos para abrir em todos os sites.-->
+
+    <!--DESSA FORMA: -->
+
+    <video width="500" controls>
+        <!--Vou fazer só dois tipos, mas existem 4.-->
+
+        <source src="videos/Production Id 5055604-1.m4v" type="video/mp4" >
+
+        <source src="videos/segundo.mkv" type="video/mp4">
+
+        <p>Infelismente seu navegador não suporta nossos vídeos. Tente em outro navegador. </p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e1qiyrw5osc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
