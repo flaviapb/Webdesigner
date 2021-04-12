@@ -1,0 +1,10 @@
+--> Semântica é o significado dos vocábulos por oposição à sua forma.
+
+--> Algumas tags utilizadas no HTML4 ainda existem e podem até funcionar, porem são tags obsoletas, ou seja, precisam de substituição. 
+
+--> Qualquer tag que você não tenha certeza, vá no site: 
+    https://dev.w3.org/html5/pf-summary/obsolete.html
+
+Dê uma olhada nas tagns que não estão mais em uso. 
+
+--> Essa questão de semântica é muito importante no HTML5, principalmente, por conta que essas tags obsoletas, podem parar de funcionar no navegador, e você terá problenas. 

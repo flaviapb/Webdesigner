@@ -1,0 +1,15 @@
+Entendendo as linhas do arquivo "index.html".
+
+Linha 1 - Para o navegador entender que você está trabalhando com um documento do tipo HTML. 
+
+Linha 2 e 14 - Na linha 2, está dizendo que seu site vai estar em português, e o restante, está delimitando o documento HTMl, que é dividido em duas partes: cabeça e corpo.
+
+Linha 3 e 8 - Está delimitando a cabeça da página, aqui que vai ficar o estilo, formatos, ícones e etc. 
+
+Linha 4 - Está dizendo que seu documento vai aceitar caracteres acentuados. 
+
+Linha 5 - Fala a ocupação do site na tela, nesse caso, está dizendo que, por padrão, oculpa todo espaço disponível. 
+
+Linha 7 - Título da página. 
+
+Linha 9 e 13 - Determina o corpo da sua página. Aqui onde vai vim todo o conteudo. 
