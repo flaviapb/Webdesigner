@@ -1,0 +1,13 @@
+Regras importantes:
+
+
+-->  É recomendado que utilize apenas um ID por página, mas caso você deseje utilizar mais de um, precisa trocar o valor, ou seja: 
+	<p Id = “destaque”> blablablablaba </p>
+	<p id = “importante”>blablablabnmjuyi´</p>
+Se colocar dois valores iguais no Id, está errado. 
+
+
+--> Para formatar dois parágrafos de uma vez, você deve utilizar uma classe, que funciona como um apelido, onde você adicionar, o CSS vai formatar. 
+
+--> Margin é a parte externa.
+--> Padding é a parte interna. 
