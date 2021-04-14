@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e list-style</title>
+</head>
+
+<style>
+    body{
+        background-color: darkgrey;
+        text-align: center;
+    }
+
+    h1{
+        background-color: rgb(15, 20, 31);
+        text-align: center;
+        margin: 50px 25px;
+        padding: 25px;
+        font-size: 50px;
+        color: crimson;
+    }
+
+    a{
+        color: red;
+        font-size: 25px;
+    }
+
+    a:hover{ /*Quando passar o mouse em cima*/
+        background-color: darkseagreen;
+    }
+
+    a:active{ /*Quando segurar o mouse em cima*/
+        color: black;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    li{
+        list-style-position: inside;
+        background-color: black;
+        color: red;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    ol li{
+        list-style-type: upper-roman;
+    }
+
+</style>
+<body>
+    <h1>Links:</h1>
+    <a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/learn/lecture/10186410#notes"> Visite a página da Udemy</a> |
+    <a href="https://github.com/flaviapb">Visite meu GitHub</a>
+
+    <h2>Listas:</h2>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+</body>
+</html>
