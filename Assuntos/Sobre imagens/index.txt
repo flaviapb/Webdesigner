@@ -20,3 +20,5 @@ Sites de domínio público:
 
     PNG - Fundo transparente e alta resoluação. 
 
+
+--> Caso você queira usar uma imagem de forma mais visual, sem precisar trazer informação, adiciona pelo CSS (index2), caso contrario usa pelo HTMl(index).
