@@ -63,9 +63,6 @@ ul{
     border-bottom: 1px solid white;
 }
 
-
-
-
 main{
     width: 80%;
     margin: auto;
@@ -94,8 +91,6 @@ main{
 .card1, .card2{
     margin-right: 2%;
 }
-
-
 
 .card p{
     text-align: center;
@@ -131,11 +126,3 @@ footer{
     color: white;
     line-height: 50px; /*3.3*/
 }
- 
-
-
-
-    
-
-
-
