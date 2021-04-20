@@ -1,0 +1,141 @@
+@charset "UFT-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin: 0px;
+}
+
+.menu{
+    display: inline-block;
+    border: 1px solid white;
+    list-style: none;
+    margin-left: 3px; 
+}
+
+.menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(169,169,169);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;  
+}
+
+.menu a:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+
+ul{
+    text-align: right;
+    margin-right: 12px;
+}
+
+.inicio{
+    background-image: url(Imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.primeiro-text h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow:  3px 3px 2px slategray; /*Primeiro é o deslocamento no eixo horizontal, depois na vertical, o tanto que a sombra é esfumada e a cor da esfumação */
+}
+
+.primeiro-text{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.primeiro-text p{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    font-size: 15px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.contentsection{
+    background-color:white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow:auto;
+}
+
+.card{
+
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card1, .card2{
+    margin-right: 2%;
+}
+
+
+
+.card p{
+    text-align: center;
+    margin: 0px;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.815);
+    padding: 6px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.content{
+    background-color:white;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content h2{
+    background-color:#F2F2F2;
+    width: 100%;
+    height: 45px;
+    line-height: 45px; /*1.2*/        
+}
+
+footer{
+    text-align: center;
+    background-color:dimgrey;
+    height: 50px;
+    width: 100%;
+    color: white;
+    line-height: 50px; /*3.3*/
+}
+ 
+
+
+
+    
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float e Clear</title>
+</head>
+
+    <style>
+        #container{
+            width: 80%;
+            padding: 15px;
+            background-color:#ccc;
+            overflow: auto;
+        }
+
+        #container div{
+            width: 100px;
+            height: 50px;
+            border: 7px solid red;
+            margin: 25px 5px;
+        }
+
+        #div1{
+            float: left;
+        }
+
+        #div2{
+            float:left;
+        }
+
+        #div3{
+            float:left;
+         }
+
+         header{
+             background-color: lightblue;
+             height: 50px;
+         }
+
+         nav{
+             width: 65%;
+             height: 100px;
+             background-color: lightcoral;;
+         }
+
+         main{
+             width: 79%;
+             height: 100px;
+             background-color:lightgoldenrodyellow;
+         }
+
+         footer{
+             height: 50px;
+             background-color: lightpink;
+         }
+    </style>
+
+
+<body>
+    <h1>Float</h1>
+    <div id="container">
+        <div id="div1">DIV1</div>
+        <div id="div2">DIV2</div>
+        <div id="div3">DIV3</div>
+    </div>
+    <hr>
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+</body>
+</html>
