@@ -1,0 +1,20 @@
+@charset "UFT-8";
+
+body{
+    text-align: center;
+    background-color:rgb(104, 118, 156);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color:thistle;
+}
