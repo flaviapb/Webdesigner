@@ -1,0 +1,17 @@
+@charset "UFT-8";
+
+body{
+    background-color: rgb(226, 135, 177);
+    font-family: cursive;
+    font-style: oblique;
+}
+
+ul{
+    list-style:none;
+    font-size: 23px;
+}
+
+h1,h2{
+    text-align: center;
+    font-size:37px;
+}

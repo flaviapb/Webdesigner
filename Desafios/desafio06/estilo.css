@@ -1,0 +1,23 @@
+@charset "UFT-8";
+
+body{
+    font-size: 20px;
+    font-family: cursive;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1{
+    color:rgb(31, 31, 165);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border: white 3px groove;
+    font-size: 35px;
+    color:rgb(31, 31, 165);
+}
+
