@@ -1,0 +1,33 @@
+.inicio{
+    background-image: url(imagens/topo.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 50px;
+}
+
+.inicio img{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+
+ul{
+    text-align: right;
+    margin-right: 12px;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    letter-spacing: 3px;
+    padding: 8px;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 3px;
+}
