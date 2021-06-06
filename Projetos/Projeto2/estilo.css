@@ -1,33 +1,68 @@
-.inicio{
-    background-image: url(imagens/topo.jpg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 50px 50px;
+body{
+    margin: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.inicio img{
-    margin-left: 90px;
+.header{
+    background-color:#162028;
+    position: relative;
+    height: 50px;
+}
+
+.header img{
+    margin: 8px 17px;
+    
+}
+
+.nav-header ul{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    right: 0;
+} 
+
+.nav-header li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 5px;
+    letter-spacing: 4px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
-
-ul{
-    text-align: right;
-    margin-right: 12px;
-    list-style: none;
-    padding: 0px;
-}
-
-.menu a{
-    text-transform: uppercase;
+.nav-header a{
     text-decoration: none;
-    display: block;
-    letter-spacing: 3px;
-    padding: 8px;
+    color:white;
 }
 
-.menu{
+.imagem-header{
+    width:100%;
+    margin-bottom: 18px;
+}
+
+.texto h1{
+    text-align: center;
+    font-size: 33px;
+}
+
+.texto p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.modelos img{
+    width: 32%;
+    float: left;
+    margin-left: 7px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detalhe{
     display: inline-block;
-    margin-left: 3px;
+}
+.detalhe h1,p{
+    text-align: center;
+    
 }
