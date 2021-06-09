@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body{
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+
+        h1,p{
+            font-family: cursive;
+        }
+        p{
+            font-size: 20px;
+        }
+
+        form{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .input1{
+            color: cornflowerblue;
+            width: 300px;
+            height: 30px;
+        }
+
+        .input2{
+            background-color: black;
+            color: cornflowerblue;
+        }
+    </style>
+
+
+
+<body>
+    <h1>Exemplo de formulário</h1>
+    <p>Esse formulário vai estar alocado no servidor do google, porém, formulários feitos com html necessitam de uma junção com back end para poder armazenar e alocar os dados, visto que html e css visam apenas o visual. </p>
+    <hr>
+
+    <form action="https://google.com/search" method="GET" name="q" target="_blank">
+        <input class="input1" type="text" name="q">
+        <input class="input2" type="submit" value="Pesquisar">
+    </form>
+
+    <hr>
+
+</body>
+</html>
