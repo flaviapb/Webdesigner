@@ -20,6 +20,12 @@
             font-size: 20px;
         }
 
+        label{
+            font-size: 18px;
+            font-family:cursive;
+            text-transform: uppercase;
+        }
+
         form{
             margin-top: 30px;
             margin-bottom: 30px;
@@ -45,7 +51,8 @@
     <hr>
 
     <form action="https://google.com/search" method="GET" name="q" target="_blank">
-        <input class="input1" type="text" name="q">
+        <label for="txtbusca">Faça uma busca:</label>
+        <input class="input1" type="text" name="q" id="txtbusca">
         <input class="input2" type="submit" value="Pesquisar">
     </form>
 
