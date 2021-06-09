@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body{
+            background-color: lavender;
+            text-align: center;
+            font-family:monospace;
+            font-size: 15px;
+        }
+
+        textarea{
+            resize:none;
+        }
+    </style>
+
+
+<body>
+    <h1>Exemplos de formulários</h1>
+    <p>Existem outros, além dos listados nessa página.</p>
+    <hr>
+    <h3>Tipo Email</h3>
+    <form action="#" method="POST" class="formlogin" >
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Digite seu email</label>
+            <input type="email" autofocus placeholder="Digite um email valido:">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h3>Tipo number</h3>
+    <form action="#" method="POST" class="formlogin">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="">Digite a quantidade de filhos</label>
+            <input type="number" min="0" max="1000">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h3>Tipo date</h3>
+    <form action="#" method="POST" class="formlogin">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="">Digite a sua data de nascimento</label>
+            <input type="date" min="1950-01-30"   max="2560-01-30">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    
+    <hr>
+
+    <h3>Tipo radio</h3>
+    <form action="#" method="POST" class="formlogin">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            
+            <label>
+                <input type="radio" name="sexo" value="M">
+                Masculino
+            </label>
+            
+            <label>
+                <input type="radio" name="sexo" value="F">
+                Feminino
+            </label>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    
+    <hr>
+
+    <h3>Tipo select(ESTADO, nesse caso)</h3>
+    <form action="#" method="POST" class="formlogin">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            
+            <select name="Estado">
+                <option value="O">Selecione</option>
+                <option value="PB">Paraíba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="SP">São Paulo</option>
+
+            </select>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <hr>
+    <h3>Tipo checkbox</h3>
+    <form action="#" method="POST" class="formlogin" >
+        <fieldset>
+            <legend>Área de interesse</legend>
+            <label>
+                <input type="checkbox" name="HTML" value="HTML"> HTML
+            </label>                
+
+            <label>
+                <input type="checkbox" name="CSS" value="CSS"> CSS
+            </label>
+
+            <label>
+                <input type="checkbox" name="python" value="python"> PYTHON
+            </label>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <hr>
+    <h3>Tipo textarea</h3>
+    <form action="#" method="POST" class="formlogin" >
+        <fieldset>
+            <legend>Reclamação do produto</legend>
+            <label>Digite sua reclamação</label>
+            <textarea name="msg" cols="30" rows="10"></textarea>
+            <hr>
+            <legend>Contrato</legend>
+            <textarea name="contrato" cols="30" rows="10" readonly>Termos do contrato: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam assumenda quis, necessitatibus laborum cumque fugit ea ex dolore nobis! Dolore, culpa? Sit corporis voluptates eaque dolorum eos iste quidem?</textarea>
+            <label>
+                <input type="checkbox"> Li e aceito
+            </label>
+        </fieldset>
+    </form>
+
+</body>
+</html>
