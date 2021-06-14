@@ -2,3 +2,32 @@
 reset.css = reseta todo o CSS, ou seja, remove todo o estilo do navegador.
 normalize.css = torna todos os CSS normalizado, ou seja, torna todos iguais em diferentes navegadores. Vamos utilizar o normalize*/
 
+body{
+    font-family: "Source Sans Pro", Helvetica, sans-serif
+    ;
+}
+
+h1{
+    font-size: 21.6px;
+    color: rgba(255,255,255,0.5);
+    line-height: 37.8px;
+    font-weight: 400;
+    background-image: url(imagens/bg.jpg);
+}
+
+
+h2{
+    color: rgb(120, 120, 120);
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+    color:rgb(162, 162, 162)
+    ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
