@@ -7,39 +7,77 @@ body{
     ;
 }
 
+a{
+    transition:color 2s linear;
+}
+
+h3{
+    color:rgb(120, 120, 120);
+    font-size:24px;
+    line-height: 36px;
+    margin: 0 0 24px;
+    font-weight: 400;
+}
+
+h4{
+    color: rgb(134, 126, 126);
+    font-size: 20px;
+}
+
+h5{
+    color:rgb(48, 39, 39);
+    font-size: 15px;
+}
 
 .main-header{
     position: fixed;
     top:0;
     left:0;
     background-image:url(imagens/overlay.png),url(imagens/bg.jpg);
+    background-size:auto,cover;
+    background-position: top left;
     width: 35%;
     height: 100%;
-    padding: 70px 60px;
+    padding: 150px 60px;
     box-sizing: border-box;
+    text-align: right;
+    
 }
 
 .main-header img{
     border-radius: 50%;
 }
 
-.main-content{
-    margin-left: 35%;
-    width: 65%;
-    padding: 70px 60px;
-    box-sizing: border-box;
-}
-
-
-h1{
+.main-header h1{
     font-size: 21.6px;
     color: rgba(255,255,255,0.5);
     line-height: 37.8px;
     font-weight: 400;
 }
 
+.main-header h1 strong{
+    color: white;
+}
 
-h2{
+.link-header{
+    color: inherit;
+    text-decoration:none;
+}
+
+.link-header:hover{
+    color:#49bf9d;
+}
+
+
+.main-content{
+    margin-left: 35%;
+    width: 65%;
+    padding: 150px 60px;
+    box-sizing: border-box;
+}
+
+
+.section-one h2{
     color: rgb(120, 120, 120);
     font-size: 32px;
     line-height: 48px;
@@ -47,10 +85,47 @@ h2{
     text-align: center;
 }
 
-h3{
-    color:rgb(162, 162, 162)
-    ;
+.section-one p{
+    color: rgb(162,162,162);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-left: 15px;
+}
+
+hr {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.section-duo .titulo{
+    color: rgb(120,120,120);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 8px;
+    padding: 0;
+}
+
+.section-duo p{
+    color:rgb(162,162,162);
+    font-size: 12.8px;
+    line-height: 19.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-tree p{
+    color:rgb(162,162,162);
+    font-size: 17px;
+    line-height: 19.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-five p{
+    color:rgb(116, 112, 112);
+    font-size: 17px;
+    line-height: 19.2px;
+    margin: 0;
+    padding: 0;
 }
