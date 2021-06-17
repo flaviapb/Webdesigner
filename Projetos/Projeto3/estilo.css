@@ -46,16 +46,8 @@ blockquote{
 }
 
 code{
-    background-color:#f7f7f7;
-    border-radius:.35em;
-    border: 2px solid #efefef;
-    padding: 0.25em 0.65em;
-    display: inline-block;
-}
-
-pre code{
-    padding-right: 200px;
-    color:#574f4f;
+    display:block;
+    
 }
 
 ul, ol{
