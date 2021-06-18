@@ -135,6 +135,11 @@ input, textarea{
     margin-bottom: 20px;
 }
 
+input[type="radio"], input[type=checkbox]{
+    width: auto;
+
+}
+
 label{
     margin-bottom: 14px;
 }
@@ -142,12 +147,6 @@ label{
 input:hover, textarea:hover{
     border: 2px solid #49bf9d;
     display: inline-block;
-}
-
-.submit{
-    width: 150px;
-    display: inline-block;
-    margin-left: 120px;
 }
 
 
@@ -160,6 +159,7 @@ input:hover, textarea:hover{
     font-size: .8em;
     text-align: center;
     display: inline-block;
+    width: auto;
 }
 
 .button-default p,a{
@@ -192,6 +192,14 @@ input:hover, textarea:hover{
     font-size: .8em;
     text-align: center;
     display: inline-block;
+}
+
+.button-default-big{
+    font-size: 1em;
+}
+
+.button-default-big:hover{
+    border:2px solid rgb(59, 58, 58);
 }
 
 .main-header{
@@ -326,3 +334,14 @@ input:hover, textarea:hover{
 .table-alternate,.table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
     border:2px solid rgb(126, 119, 119);
 }
+
+.ultimo-form input,select{
+    height: 30px;
+    width: 300px;
+}
+
+.ultimo-form select{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
