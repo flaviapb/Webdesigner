@@ -97,15 +97,28 @@ ul, ol{
 /* Grid */
 
 .colunas2-3{
-    width: 65%;
+    width: 60%;
     float: left;
 }
 
 .colunas1-3{
     width: 30%;
-    margin-left: 5%;
+    margin-left: 10%;
     float: left;
     margin-left: 10px;
+}
+
+.colunas1-3 p{
+    font-size: 17px;
+    display: inline-block;
+    color: rgb(120, 120, 120);
+    margin-top: 56px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.fas{
+    color:#49bf9d;
 }
 
 input, label, textarea{
@@ -131,7 +144,11 @@ input:hover, textarea:hover{
     display: inline-block;
 }
 
-
+.submit{
+    width: 150px;
+    display: inline-block;
+    margin-left: 120px;
+}
 
 
 .button-default{
