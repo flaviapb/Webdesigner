@@ -45,10 +45,6 @@ blockquote{
     padding: .5em 0 .5em 1.3em;
 }
 
-code{
-    display:block;
-    
-}
 
 ul, ol{
     line-height: 30px;
@@ -86,9 +82,57 @@ ul, ol{
 }
 
 .colunas{
-    width: 50%;
+    width: 43%;
     float: left;
 }
+
+.colunas:first-child{
+    margin-right: 7%;
+}
+
+.colunas:last-child{
+    margin-left: 7%;
+}
+
+/* Grid */
+
+.colunas2-3{
+    width: 65%;
+    float: left;
+}
+
+.colunas1-3{
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+    margin-left: 10px;
+}
+
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background-color: #dbd6d6;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 14px;
+}
+
+input:hover, textarea:hover{
+    border: 2px solid #49bf9d;
+    display: inline-block;
+}
+
+
+
 
 .button-default{
     background-color: #49bf9d;
@@ -191,7 +235,7 @@ ul, ol{
 
 .section-one p{
     color: rgb(162,162,162);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-left: 15px;
@@ -213,7 +257,7 @@ ul, ol{
     padding: 0;
 }
 
-.section-tree p{
+.p-section-tree p{
     color:rgb(162,162,162);
     font-size: 17px;
     line-height: 19.2px;
