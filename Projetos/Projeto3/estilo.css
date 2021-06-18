@@ -160,6 +160,8 @@ input:hover, textarea:hover{
     text-align: center;
     display: inline-block;
     width: auto;
+    transition: all 3s;
+    cursor: pointer;
 }
 
 .button-default p,a{
@@ -173,7 +175,13 @@ input:hover, textarea:hover{
     text-align: center;
 }
 
+.button-default-stroke:hover{
+    border-color: #49bf9d;
+    color: #49bf9d;
+}
+
 .button-default-small{
+
     font-size: 0.7em;
     text-align: center;
 }
@@ -280,7 +288,20 @@ input:hover, textarea:hover{
     line-height: 19.2px;
     margin: 0;
     padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+.section-duo img{
+    width: 100%;
+    border-radius: .9em;
+    overflow: hidden;
+}
+
+.section-duo a{
+    margin-top: 30px;
+}
+
 
 .p-section-tree p{
     color:rgb(162,162,162);
@@ -296,7 +317,9 @@ input:hover, textarea:hover{
     line-height: 19.2px;
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
+
 
 .table{
     margin: 0 0 2em 0;
@@ -344,4 +367,31 @@ input:hover, textarea:hover{
     margin-left: 40px;
     margin-bottom: 40px;
 }
+
+
+.img-left{
+    float: left;
+    margin-right: 10px;
+}
+
+.img-right{
+    float: right;
+    margin-left: 20px;
+}
+
+.main-footer{
+    position: fixed;
+    width: 35%;
+    left: 0;
+    bottom:80px;
+    padding: 0 120px 0px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.main-footer ul{
+    list-style: none;
+}
+
+
 
