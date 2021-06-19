@@ -102,10 +102,16 @@ ul, ol{
 }
 
 .colunas1-3{
-    width: 30%;
-    margin-left: 10%;
-    float: left;
-    margin-left: 10px;
+    width: 32%;
+    float: left; 
+}
+
+.colunas1-3:nth-child(3n -1){
+    margin: 0 2%;
+}
+
+.colunas1-3:nth-child(1n){
+    margin-bottom: 2%;
 }
 
 .colunas1-3 p{
@@ -119,6 +125,13 @@ ul, ol{
 
 .fas{
     color:#49bf9d;
+}
+
+
+.galery-G img {
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 10%;
 }
 
 input, label, textarea{
@@ -148,7 +161,6 @@ input:hover, textarea:hover{
     border: 2px solid #49bf9d;
     display: inline-block;
 }
-
 
 .button-default{
     background-color: #49bf9d;
@@ -221,7 +233,7 @@ input:hover, textarea:hover{
     height: 100%;
     padding: 150px 60px;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
     
 }
 
@@ -238,6 +250,12 @@ input:hover, textarea:hover{
 
 .main-header h1 strong{
     color: white;
+}
+
+.main-header p{
+    color: rgb(162,162,162);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .link-header{
@@ -382,16 +400,34 @@ input:hover, textarea:hover{
 .main-footer{
     position: fixed;
     width: 35%;
-    left: 0;
-    bottom:80px;
-    padding: 0 120px 0px 0;
+    bottom: 80px;
+    padding-top: 0;
+    padding-right: 110px;
+    padding-bottom: 10px;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
+
 }
 
 .main-footer ul{
     list-style: none;
 }
+
+.copyright li{
+    display: inline-block;
+    line-height: 1em;
+    margin-left: 5px;
+    padding-left: .8em;
+}
+
+.li-02{
+    border-left: 4px solid rgb(201, 188, 188);
+}
+
+
+
+
+
 
 
 
