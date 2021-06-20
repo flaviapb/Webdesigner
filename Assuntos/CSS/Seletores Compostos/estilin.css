@@ -1,0 +1,61 @@
+body{
+    font-family: cursive;
+}
+
+
+/*TODAS AS TAGS A DENTRO DO ARTICLE*/
+article:nth-child(1) a{
+    color: rgb(201, 59, 59);
+}
+
+/*FILHO DIRETO ">" */
+article:nth-child(3)>p{
+    color: chocolate;
+}
+
+
+/*Filho imediato do h3, ou seja p*/
+article:nth-child(5) h3 + p{
+    color: rgb(57, 172, 201);
+}
+
+/*TODO P QUE VEM DEPOIS DO H3*/
+article:nth-child(7) h3 ~ p{
+    color: rgb(211, 88, 139);
+}
+
+/*Todo meu article, tem uma bordinha, menos o que tem a class destaque */
+article:not(.destaque){
+    border: 5px solid red;
+}
+
+.destaque{
+    background-color: rgb(211, 88, 139);
+}
+
+
+h2{
+    text-align: center;
+}
+
+/*Os que tem dentro do href "oq ta dentro"*/
+a[href="#"]{
+    opacity: .2;
+}
+
+/*Os que tem um title"*/
+a[title]{
+    color: rgb(57, 172, 201);
+}
+
+/*Os que começam com "oq ta dentro"*/
+a[href^="https"]{
+    text-decoration: none;
+}
+
+/*Os que terminam com "oq ta dentro"*/
+a[href$=".com/flaviapb"]{
+    border: 1px solid red;
+}
+
+
