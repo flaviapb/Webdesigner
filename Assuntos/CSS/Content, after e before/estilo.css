@@ -1,0 +1,23 @@
+div{
+    border: 2px solid red;
+    padding: 25px;
+    text-align: center;
+    margin: 190px;
+    text-align: justify;
+}
+
+div::before{
+    content: "";
+    background-color: rgb(146, 32, 32);
+    width: 70px;
+    height: 8px;
+    display: inline-block;
+}
+
+div::after{
+    content: "";
+    background-color: rgb(146, 32, 32);
+    width: 70px;
+    height: 8px;
+    display: inline-block;
+}
