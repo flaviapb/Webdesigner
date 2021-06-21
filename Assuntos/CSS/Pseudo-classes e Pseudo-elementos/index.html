@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body{
+        text-align: center;
+        background-color:rgb(102, 92, 160);
+        color: mintcream;
+    }
+
+
+    a,ul{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    /*Aqui eu to dizendo que todo parágrafo vazio, vai receber essa formatação*/
+    p:empty::before{
+        content: "";
+        background-color: orange;
+        width: 30px;
+        height: 10px;
+        display: inline-block;
+    }
+
+    a:focus{
+        border: 2px solid black;
+    }
+</style>
+
+
+
+
+
+<body>
+    <h1>Pseudo-classes e Pseudo-elementos</h1>
+    <hr>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus ab tempora fugiat voluptatem eligendi, provident deserunt asperiores? Veritatis numquam, error eius quasi enim fuga placeat, rem similique assumenda, asperiores odit.</p>
+    <!--p vazio-->
+    <p></p>
+    <!--Esse p não aparece-->
+    <p> </p>
+    <hr>
+    <span>Nome</span>
+    <input type="text">
+    <span>Nome2</span>
+    <input type="text" value="Digita teu nome:">
+    <hr>
+    <span>Nome3</span>
+    <input type="text" disabled value="Desativado">
+    <span>Nome4</span>
+    <input type="text" placeholder="Digite seu nome">
+    <hr>
+    <ul>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+    </ul>
+    <hr>
+    <div>Div1</div>
+    <div>Div2</div>
+    <div>Div3</div>
+    <hr>
+
+</body>
+</html>
