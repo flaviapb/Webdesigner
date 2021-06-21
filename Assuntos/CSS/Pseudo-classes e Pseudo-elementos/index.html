@@ -19,6 +19,7 @@
     a,ul{
         text-decoration: none;
         list-style: none;
+        color: mintcream;
     }
 
     /*Aqui eu to dizendo que todo parágrafo vazio, vai receber essa formatação*/
@@ -30,8 +31,13 @@
         display: inline-block;
     }
 
-    a:focus{
+    a:focus, a:hover, div:focus{
         border: 2px solid black;
+        background-color: rgb(65, 54, 13)  ;
+    }
+
+    input[type="text"]:focus{
+        background-color: rgb(122, 115, 115);
     }
 </style>
 
@@ -49,9 +55,9 @@
     <p> </p>
     <hr>
     <span>Nome</span>
-    <input type="text">
+    <input type="text" value="Só leitura" readonly>
     <span>Nome2</span>
-    <input type="text" value="Digita teu nome:">
+    <input type="text" value="Apaga e digita teu nome:">
     <hr>
     <span>Nome3</span>
     <input type="text" disabled value="Desativado">
@@ -65,9 +71,9 @@
         <li><a href="#">Link Falso</a></li>
     </ul>
     <hr>
-    <div>Div1</div>
-    <div>Div2</div>
-    <div>Div3</div>
+    <div tabindex="3">Div1</div>
+    <div tabindex="2">Div2</div>
+    <div tabindex="1">Div3</div>
     <hr>
 
 </body>
