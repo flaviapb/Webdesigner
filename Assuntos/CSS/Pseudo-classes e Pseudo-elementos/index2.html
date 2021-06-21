@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+    <style>
+        body{
+            background-color: darkgray;
+            text-align: center;
+        }
+
+        /*isso aqui n existe, pois o terceiro filho é o hr, para resolver, podemos fazer assim: */
+        p:nth-child(3){
+            color: rgb(87, 42, 42);
+        }
+
+        p:nth-child(4){
+            color: red;
+        }
+        /*ou*/
+        p:nth-of-type(3){
+            background-color: rgb(142, 146, 158);
+        }
+
+        p:first-child{
+            color: rgb(151, 41, 165);
+        }
+
+        p:last-child{
+            color: springgreen;
+        }
+
+        /*Nada aconteceu, pois a classe destaque não está no segundo parágrafo e sim no 5, para resolver podemos colocar a class no segundo parágrafo  e vai funcionar*/
+        .destaque:nth-of-type(2){
+            color: tomato;
+        }
+
+    </style>
+
+<body>
+    <h1>"Last-child","First-child","Nth-child" e "Nth-of-type"</h1>
+    <hr>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, labore quaerat, numquam delectus nemo dolores quo nostrum vero sequi iste tenetur recusandae id tempora quis corrupti officiis totam voluptates aperiam.</p>
+        <p class="destaque">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora eius necessitatibus recusandae provident alias repudiandae culpa? Ab maiores blanditiis, et sit ducimus repellat cupiditate, libero ex tempora, odit ad?
+        </p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, labore quaerat, numquam delectus nemo dolores quo nostrum vero sequi iste tenetur recusandae id tempora quis corrupti officiis totam voluptates aperiam.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora eius necessitatibus recusandae provident alias repudiandae culpa? Ab maiores blanditiis, et sit ducimus repellat cupiditate, libero ex tempora, odit ad?
+        </p>
+        <hr>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, labore quaerat, numquam delectus nemo dolores quo nostrum vero sequi iste tenetur recusandae id tempora quis corrupti officiis totam voluptates aperiam.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora eius necessitatibus recusandae provident alias repudiandae culpa? Ab maiores blanditiis, et sit ducimus repellat cupiditate, libero ex tempora, odit ad?
+        </p>
+    </div>
+</body>
+</html>
