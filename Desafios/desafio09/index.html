@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(98, 118, 155);
+            font-size: 18px;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        a[href$="pdf"]::after{
+            content: url(image/pdf-icon.png);
+            font-size: 30px;
+            margin-left: 5px;
+            display: inline-block;
+        }
+
+        a[target="_blank"]::after{
+            content: url(image/arrow-up-icon.png);
+            font-size: 30px;
+            margin-left: 5px;
+            display: inline-block;
+        }
+
+        .chek-false{
+            width: 13px;
+            height: 13px;
+            background-color: rgb(252, 249, 252);
+            display: inline-block;
+            border: 1px solid black;
+            margin-right: 5px;
+        }
+
+        label{
+            display: inline-block;
+            height: 17px;
+        }
+
+        input[type="checkbox"]{
+            margin: 0;
+            display: inline-block;
+            width: 0;
+        }
+
+        input[type="checkbox"]:checked + label .chek-false{
+            background-color: #555;
+            position: relative;
+        }
+
+        input[type="checkbox"]:checked + label .chek-false::before{
+            content: "";
+            position: absolute;
+            display: inline-block;
+            top: 0;
+            bottom: 4px;
+            left: 4px;
+            right: 4px;
+            transform: rotate(45deg);
+            border: 2px solid white;
+            border-top-color: transparent;
+            border-left-color:transparent;
+            box-sizing: border-box;
+        }
+     
+    </style>
+
+
+<body>
+    <h1>Checkbox diferenciado</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro maiores distinctio hic consequuntur possimus ut, enim facere cumque commodi dolores labore voluptatibus alias expedita ipsam perspiciatis blanditiis repellat sunt soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. At id sunt harum voluptate odit modi molestiae natus, sapiente expedita. Quidem sequi error illum beatae iste, nihil fugiat libero tempore enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et cumque debitis tenetur nisi minima exercitationem hic ea accusamus rerum, ab mollitia suscipit eveniet at temporibus odio impedit, veniam asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus temporibus consequuntur autem, unde quo odit delectus quas aperiam tempora optio iusto culpa, nemo, ullam tempore non sit reprehenderit molestias eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla expedita ratione obcaecati in distinctio! Minima nam, accusamus neque qui excepturi magnam quae optio mollitia dolorum adipisci consequatur, doloremque exercitationem totam.</p> 
+    <br>
+    <br>
+    <a href="#" target="_blank">Link falso</a>
+    <br>
+    <br>
+    <a href="qq.pdf">Pdf falso</a>
+    <br>
+    <br>
+    <input type="checkbox" name="button" id="button">
+    <label for="button">
+        <span class="chek-false"></span>
+        Aceito os termos
+    </label>
+</body>
+</html>
