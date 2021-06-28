@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    background-color: rgb(63, 68, 68);
+    color: white;
+    font-size: 18px;
+}
+
+a{
+    display: block;
+    margin: 20px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family:20px ;
+}
+a img{
+    width: 100%;
+    display: block;
+}
+
+a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: all .5s;
+}
+a:hover::before{
+    background-color: rgba(0,0,0,.7);
+}
+
+a::after{
+    opacity: 0;
+}
+
+.narutin:hover::after{
+    content: "Naruto Uzumaki";
+    display: block;
+    position: absolute;
+    border: 2px solid rgb(197, 131, 31);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    opacity: 1;
+}
+
+.hinata:hover::after{
+    content: "Hinata Hyuga";
+    display: block;
+    position: absolute;
+    border: 2px solid rgb(152, 46, 179);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    opacity: 1;
+}
+
+.boruto:hover::after{
+    content: "Boruto Hyuga Uzumaki";
+    display: block;
+    position: absolute;
+    border: 2px solid rgb(179, 46, 146);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    opacity: 1;
+}
+
+.himawari:hover::after{
+    content: "Himawari Hyuga Uzumaki";
+    display: block;
+    position: absolute;
+    border: 2px solid rgb(41, 133, 150);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    opacity: 1;
+}
